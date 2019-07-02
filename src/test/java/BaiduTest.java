@@ -3,7 +3,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class Baidu {
+public class BaiduTest {
     @Test
     public void testGetHtml(){
         given().log().all().get("http://www.baidu.com")

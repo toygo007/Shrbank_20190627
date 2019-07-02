@@ -2,7 +2,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class ShrbankDemo {
+public class ShrbankDemoTest {
     @Test
     public void testEasyJson(){
         when()
