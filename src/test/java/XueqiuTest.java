@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-public class Xueqiu {
+public class XueqiuTest {
 
     public static String code;
     public static RequestSpecification requestSpecification;
